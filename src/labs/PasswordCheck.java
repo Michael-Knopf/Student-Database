@@ -38,7 +38,7 @@ public class PasswordCheck {
 					hasNum = true;
 				} else if ("abcdefghijklmnopqrstuvwxyz".contains(password.substring(n,n+1).toLowerCase())) {
 					hasLet = true;
-				} else if ("!@#$".contains(password.substring(n,n+1))) {
+				} else if ("!@#$^%&*_+=-;.<>?/".contains(password.substring(n,n+1))) {
 					hasChar = true;
 				}
 			
