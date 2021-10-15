@@ -23,4 +23,6 @@ public class Search {
 			return binarySearch(dataSet, target, midPoint+1, end);
 		} return midPoint;
 	}
+	
+	
 }
