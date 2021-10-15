@@ -3,10 +3,11 @@ package algorithms;
 public class Sort {
 
 	public static void bubbleSort(int[] dataSet) {
-		boolean swapped = false;
+		boolean swapped;
 		System.out.print("original array: \n");
 		printArray(dataSet);
 		do {
+			swapped = false;
 			for (int i =0; i<dataSet.length - 1; i++) {
 				if(dataSet[i] > dataSet[i+1]) {
 					int temp = dataSet[i];
